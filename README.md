@@ -47,10 +47,9 @@ Follow the instructions below and use the information in the credit_risk_resampl
 
   1. Open the credit_risk_ensemble_starter_code.ipynb file, rename it credit_risk_ensemble.ipynb, and save it to your Credit_Risk_Analysis folder.
   2. Using the information we have provided in the starter code, create my training and target variables by completing the following:
- 
-    - Create the training variables by converting the string values into numerical ones using the `get_dummies()` method.
-    - Create the target variables.
-    - Check the balance of the target variables.
+      - Create the training variables by converting the string values into numerical ones using the `get_dummies()` method.
+      - Create the target variables.
+      - Check the balance of the target variables.
    
   3. Resample the training data using the `BalancedRandomForestClassifier` algorithm with 100 estimators.
     - Consult the following Random Forest documentation Links to an external site.for an example.
@@ -64,12 +63,18 @@ Save my `credit_risk_ensemble.ipynb` file to your Credit_Risk_Analysis folder.
 
 # Deliverable 4: Written Report on the Credit Risk Analysis
 
-For this deliverable, I’ll write a brief summary and analysis of the performance of all the machine learning models used in this Challenge.
+## **Overview of the analysis**: Explain the purpose of this analysis.
 
-The report should contain the following:
+## **Results**
 
-1. Overview of the analysis: Explain the purpose of this analysis.
+## **Summary** : Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
 
-Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+# **SOURCES**:
 
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+
+# **MODULE 18 Challenge**
+My link github page:
+
+by **Marisol Gascon Linarez**
+
+**UCF Bootcamp Data Visualization and Analytics**
