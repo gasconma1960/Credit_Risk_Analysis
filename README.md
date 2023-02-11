@@ -18,13 +18,50 @@ Using the information we’ve provided in the starter code, create your training
 
   - Create the training variables by converting the string values into numerical ones using the `get_dummies()` method.
   - Create the target variables.
+![image](https://user-images.githubusercontent.com/112348240/218282232-4b0dd7ac-68f6-4f97-a9c4-ad5e31b672b9.png)
+  
   - Check the balance of the target variables.
-Next, begin resampling the training data. First, use the oversampling `RandomOverSampler` and `SMOTE` algorithms to resample the data, then use the undersampling `ClusterCentroids` algorithm to resample the data. For each resampling algorithm, do the following:
+![image](https://user-images.githubusercontent.com/112348240/218282316-55d8ad74-2000-4f8b-a437-78b2816c6355.png)
 
+Next, begin resampling the training data. First, use the oversampling `RandomOverSampler` and `SMOTE` algorithms to resample the data, then use the undersampling `ClusterCentroids` algorithm to resample the data. For each resampling algorithm, do the following:
+# **Oversampling RandomOverSampler**
   - Use the `LogisticRegression` classifier to make predictions and evaluate the model’s performance.
+  
+![image](https://user-images.githubusercontent.com/112348240/218282382-a0a14dcf-b248-4506-a5ef-b86d12c1f6b5.png)
+
+![image](https://user-images.githubusercontent.com/112348240/218282419-e63e0d65-a5e1-4fe7-88f0-eaeba811e89d.png)
+
   - Calculate the accuracy score of the model.
+
+![image](https://user-images.githubusercontent.com/112348240/218282516-dbb5ddf8-f752-4147-a741-edaa196a5487.png)
+
   - Generate a confusion matrix.
+ 
+![image](https://user-images.githubusercontent.com/112348240/218282619-5615a735-7554-45f6-8a0e-408c519e2740.png)
+
   - Print out the imbalanced classification report.
+
+![image](https://user-images.githubusercontent.com/112348240/218282665-1ea50338-be54-4f21-bc01-532bcb7d17cf.png)
+
+# **SMOTE Oversampling**
+
+ - Use the `LogisticRegression` classifier to make predictions and evaluate the model’s performance.
+ 
+![image](https://user-images.githubusercontent.com/112348240/218282906-2842202a-6ec9-4234-ae11-9574ad88a311.png)
+![image](https://user-images.githubusercontent.com/112348240/218282958-193b78c5-755c-4479-b43e-f136209bf620.png)
+
+ - Calculate the accuracy score of the model.
+
+![image](https://user-images.githubusercontent.com/112348240/218283022-d36ee453-a8b7-4f4e-8dc4-43f3c639e560.png)
+
+ - Generate a confusion matrix.
+
+![image](https://user-images.githubusercontent.com/112348240/218283185-6d06bf33-735a-454f-ba3d-e1865454f368.png)
+
+ - Print out the imbalanced classification report.
+
+
+
 Save my `credit_risk_resampling.ipynb` file to my Credit_Risk_Analysis folder.
 
 # Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
