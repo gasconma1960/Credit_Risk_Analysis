@@ -127,25 +127,51 @@ Follow the instructions below and use the information in the credit_risk_resampl
   2. Using the information we have provided in the starter code, create my training and target variables by completing the following:
       - Create the training variables by converting the string values into numerical ones using the `get_dummies()` method.
       - Create the target variables.
+      
+ ![image](https://user-images.githubusercontent.com/112348240/218287488-543de515-2580-4486-ac44-2e12b3bb2c52.png)
+
       - Check the balance of the target variables.
-   
+  
+ ![image](https://user-images.githubusercontent.com/112348240/218287570-119867ea-2a40-4314-954d-c15f7579c850.png)
+
+ ## **Balanced Random Forest Classifier** 
   3. Resample the training data using the `BalancedRandomForestClassifier` algorithm with 100 estimators.
-    - Consult the following Random Forest documentation Links to an external site.for an example.
- 
+
+![image](https://user-images.githubusercontent.com/112348240/218287640-c5d5582d-9209-4dc3-932b-ee3d7024b369.png)
+
   4. After the data is resampled, calculate the accuracy score of the model, generate a confusion matrix, and then print out the imbalanced classification report.
+
+![image](https://user-images.githubusercontent.com/112348240/218287684-0674fb46-450c-47a4-95a4-404f77552d3a.png)
+
+![image](https://user-images.githubusercontent.com/112348240/218287706-51955845-008b-4edf-9bb8-97834ee841b9.png)
+
+![image](https://user-images.githubusercontent.com/112348240/218287733-d33d794f-1cda-43c2-bcab-a1894663a7da.png)
+
   5. Print the feature importance sorted in descending order (from most to least important feature), along with the feature score.
+
+![image](https://user-images.githubusercontent.com/112348240/218287768-ee603d5b-cb2d-4a05-8e94-9f0aab1d5858.png)
+
+## **Easy Ensemble AdaBoost Classifier**
+
   6. Next, resample the training data using the EasyEnsembleClassifier algorithm with 100 estimators.
-    - Consult the following Easy Ensemble documentation Links to an external site.for an example.
+  
+![image](https://user-images.githubusercontent.com/112348240/218287826-c61f8dc7-896e-42c0-b05c-f11bcf27f791.png)
+
   7. After the data is resampled, calculate the accuracy score of the model, generate a confusion matrix, and then print out the imbalanced classification report.
+
+![image](https://user-images.githubusercontent.com/112348240/218287908-b1bedb59-f59f-46dd-9236-537bce461247.png)
+
+![image](https://user-images.githubusercontent.com/112348240/218287932-6ab53eeb-c8a3-4944-87a6-5e24e6a1e44a.png)
+
 Save my `credit_risk_ensemble.ipynb` file to your Credit_Risk_Analysis folder.
 
 # Deliverable 4: Written Report on the Credit Risk Analysis
 
-## **Overview of the analysis**: Explain the purpose of this analysis.
+## **Overview of the analysis**: 
 
 ## **Results**
 
-## **Summary** : Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+## **Summary** : 
 
 # **SOURCES**:
 
