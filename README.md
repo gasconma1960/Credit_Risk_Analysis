@@ -18,6 +18,7 @@ Using the information we’ve provided in the starter code, create your training
 
   - Create the training variables by converting the string values into numerical ones using the `get_dummies()` method.
   - Create the target variables.
+ 
 ![image](https://user-images.githubusercontent.com/112348240/218282232-4b0dd7ac-68f6-4f97-a9c4-ad5e31b672b9.png)
   
   - Check the balance of the target variables.
@@ -59,6 +60,8 @@ Next, begin resampling the training data. First, use the oversampling `RandomOve
 ![image](https://user-images.githubusercontent.com/112348240/218283185-6d06bf33-735a-454f-ba3d-e1865454f368.png)
 
  - Print out the imbalanced classification report.
+ - 
+ ![image](https://user-images.githubusercontent.com/112348240/218286595-c3aa770e-a2bf-439e-a389-be0c942844d1.png)
 
 
 
