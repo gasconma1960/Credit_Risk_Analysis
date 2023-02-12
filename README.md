@@ -216,7 +216,7 @@ Jupyter Notebook
 Machine Learning 
 
 # **MODULE 18 Challenge**
-My link github page:
+My link github page: https://gasconma1960.github.io/Credit_Risk_Analysis/
 
 by **Marisol Gascon Linarez**
 
