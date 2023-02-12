@@ -1,4 +1,8 @@
 # Credit_Risk_Analysis
+
+![image](https://user-images.githubusercontent.com/112348240/218292366-a271c160-a4ca-4790-86ab-175406e5108d.png)
+
+
 # Background
 Jill commends me for all my hard work. Piece by piece, I’ve been building up my skills in data preparation, statistical reasoning, and machine learning. I am now ready to apply machine learning to solve a real-world challenge: credit card risk.
 
