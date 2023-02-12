@@ -25,7 +25,7 @@ Using the information we’ve provided in the starter code, create your training
 ![image](https://user-images.githubusercontent.com/112348240/218282316-55d8ad74-2000-4f8b-a437-78b2816c6355.png)
 
 Next, begin resampling the training data. First, use the oversampling `RandomOverSampler` and `SMOTE` algorithms to resample the data, then use the undersampling `ClusterCentroids` algorithm to resample the data. For each resampling algorithm, do the following:
-# **Oversampling RandomOverSampler**
+## **Oversampling RandomOverSampler**
   - Use the `LogisticRegression` classifier to make predictions and evaluate the model’s performance.
   
 ![image](https://user-images.githubusercontent.com/112348240/218282382-a0a14dcf-b248-4506-a5ef-b86d12c1f6b5.png)
@@ -44,7 +44,7 @@ Next, begin resampling the training data. First, use the oversampling `RandomOve
 
 ![image](https://user-images.githubusercontent.com/112348240/218282665-1ea50338-be54-4f21-bc01-532bcb7d17cf.png)
 
-# **SMOTE Oversampling**
+## **SMOTE Oversampling**
 
  - Use the `LogisticRegression` classifier to make predictions and evaluate the model’s performance.
  
@@ -60,10 +60,30 @@ Next, begin resampling the training data. First, use the oversampling `RandomOve
 ![image](https://user-images.githubusercontent.com/112348240/218283185-6d06bf33-735a-454f-ba3d-e1865454f368.png)
 
  - Print out the imbalanced classification report.
- - 
+ 
  ![image](https://user-images.githubusercontent.com/112348240/218286595-c3aa770e-a2bf-439e-a389-be0c942844d1.png)
 
+## **Undersampling ClusterCentroids**
 
+1. View the count of the target classes using Counter from the collections library.
+
+![image](https://user-images.githubusercontent.com/112348240/218286775-2bb8edbc-c05f-42a7-90dd-920e71357d62.png)
+
+2. Use the resampled data to train a logistic regression model.
+
+![image](https://user-images.githubusercontent.com/112348240/218286814-abac83b6-dcf2-4ed7-aaad-51b9eb816ee1.png)
+
+3. Calculate the balanced accuracy score from sklearn.metrics.
+
+![image](https://user-images.githubusercontent.com/112348240/218286855-bf8d01b1-736b-4042-8d93-8cd3b15ff4ec.png)
+
+4. Print the confusion matrix from sklearn.metrics.
+
+![image](https://user-images.githubusercontent.com/112348240/218286889-f9da2183-2a4e-4ce6-8321-6c2b86921b3b.png)
+
+5. Generate a classication report using the imbalanced_classification_report from imbalanced-learn
+
+![image](https://user-images.githubusercontent.com/112348240/218286906-04643592-0448-425e-b8e6-9a3e7b36458a.png)
 
 Save my `credit_risk_resampling.ipynb` file to my Credit_Risk_Analysis folder.
 
@@ -73,10 +93,28 @@ Using my knowledge of the `imbalanced-learn` and `scikit-learn` libraries, I’l
 
 Follow the instructions below and use the information in the credit_risk_resampling_starter_code.ipynb file to complete Deliverable 2.
 
-  1. Continue using my `credit_risk_resampling.ipynb` file where I have already created my training and target variables.
-  2. Using the information we have provided in the starter code, resample the training data using the `SMOTEENN` algorithm.
-  3. After the data is resampled, use the `LogisticRegression` classifier to make predictions and evaluate the model’s performance.
-  4. Calculate the accuracy score of the model, generate a confusion matrix, and then print out the imbalanced classification report.
+## **Combination (Over and Under) Sampling**
+  1. View the count of the target classes using Counter from the collections library.
+
+![image](https://user-images.githubusercontent.com/112348240/218286999-b8449224-a068-4e81-bc51-3331d3a50cb7.png)
+
+  2. Use the resampled data to train a logistic regression model.
+
+![image](https://user-images.githubusercontent.com/112348240/218287071-387e463b-5721-4387-a4c0-9e4b82c7e8b1.png)
+
+  3. Calculate the balanced accuracy score from sklearn.metrics.
+
+![image](https://user-images.githubusercontent.com/112348240/218287132-3480420e-a337-4608-a78f-6e917e064812.png)
+
+  4. Print the confusion matrix from sklearn.metrics.
+
+![image](https://user-images.githubusercontent.com/112348240/218287173-6eeb6020-014d-404a-a11b-a33279260033.png)
+
+  5. Generate a classication report using the imbalanced_classification_report from imbalanced-learn.
+
+![image](https://user-images.githubusercontent.com/112348240/218287205-6ae07539-52a0-4308-beb3-33046cffa9c0.png)
+
+
 Save my `credit_risk_resampling.ipynb`file to my Credit_Risk_Analysis folder.
 
 # Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
