@@ -168,13 +168,48 @@ Save my `credit_risk_ensemble.ipynb` file to your Credit_Risk_Analysis folder.
 # Deliverable 4: Written Report on the Credit Risk Analysis
 
 ## **Overview of the analysis**: 
-
+Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, I’ll oversample the data using the `RandomOverSampler` and `SMOTE` algorithms, and undersample the data using the `ClusterCentroids` algorithm. Then, I’ll use a combinatorial approach of over- and undersampling using the `SMOTEENN` algorithm. Next, I’ll compare two new machine learning models that reduce bias, `BalancedRandomForestClassifier` and `EasyEnsembleClassifier`, to predict credit risk.
 ## **Results**
+**Random Over Sampler**
+
+![image](https://user-images.githubusercontent.com/112348240/218292112-87d8f083-1b8f-4f0e-aabc-70f954e41a30.png)
+
+
+**SMOTE**
+
+![Image 10](https://user-images.githubusercontent.com/112348240/218291774-ea978162-8854-4fca-8763-f841a3d0a6ff.png)
+
+**Cluster Centroids**
+
+![Image 15](https://user-images.githubusercontent.com/112348240/218291797-fc98da35-2c76-4c53-9107-d7e0f813e7cc.png)
+
+**(Over and Under)**
+
+![Image 20](https://user-images.githubusercontent.com/112348240/218291802-41593a8e-53ca-47ad-a3fa-9b30247b915c.png)
+
+
+**Balanced Random Forest Classifier**
+
+![Image 26](https://user-images.githubusercontent.com/112348240/218291817-5308bf32-e41f-44a9-8a17-cd0b65659748.png)
+
+
+**Easy Ensemble Classifier**
+
+![image](https://user-images.githubusercontent.com/112348240/218292079-5ad1688d-3da4-4af2-9308-94821d617be9.png)
 
 ## **Summary** : 
+  After using all the oversampling and undersampling algorithms so Easy Ensemble AdaBoost classifier results were probably the best to be use to evaluate the credit risk with a Balanced Accuracy and F1 scores of 0.14 for high_risk and 0.97 for low_risk, the worst one will be the comparision of Over and Under Balanced Accuracy of 0.52 and F1 scores of 0.02 for high_risk and 0.74 for low_risk.
+
+![image](https://user-images.githubusercontent.com/112348240/218290451-f4c639f9-968c-4b09-8fac-cd495d1ded37.png)
+
 
 # **SOURCES**:
 
+LoanStats_2019Q1.csv
+
+Jupyter Notebook
+
+Machine Learning 
 
 # **MODULE 18 Challenge**
 My link github page:
